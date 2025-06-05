@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <title>Web Service</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- Header section starts -->
+<header>
+
+    <a href="#" class="logo">Web Service</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#kpi">KPI</a>
+        <a href="#branch">branch</a>
+        <a href="#events">events</a>    
+    </nav>
+
+</header>
+<!-- Header section ends -->
+
+<!-- Home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <!--<h3>UNIPRO</h3>
+        <p>Web Service</p>
+        <button class="btpopup">App</button>-->
+    </div>
+
+</section>
+
+<!-- Home section ends -->
+
+<!-- Bottom section starts -->
+<div class="icons-container">
+<!-- Portal -->
+    <div class="icons">
+        <img src="images/portal.png" alt="">
+        <h3>Portal</h3>
+        <a href="https://webax.uniprogroup.com/vpn/index.html" 
+            target="_blank" class="btn">AX2012 On Cloud</a>
+        <a href="https://www.office.com/?auth=2" 
+            target="_blank" class="btn">WebMail</a>
+        <a href="http://webehr.uniprogroup.com:8081/WebTimeOnline/default1.aspx" 
+            target="_blank" class="btn">ระบบลาออนไลน์</a>
+        <a href="https://uniprogroup-my.sharepoint.com/personal/adminit_uniprogroup_com/_layouts/15/onedrive.aspx" 
+            target="_blank" class="btn">OneDrive</a>
+        <a href="http://192.168.0.9/powerbi/show.html?type=report&id=ec6221c7-4d44-4f74-8c63-1ac3e253f861&section=ReportSectionb7eec996db69c793c918&tabReport=true" 
+            target="_blank" class="btn">สถิติความปลอดภัย</a>
+        <a href="http://192.168.0.9/powerbi/show.html?type=report&id=5c24c352-bd84-4bb8-a9b1-1bb80c4f91a2&section=ReportSection&tabReport=false&filterPane=false" 
+            target="_blank" class="btn">ข้อร้องเรียนจากลูกค้า</a>
+        <a href="http://webehr.uniprogroup.com/LoginERS/login.aspx" 
+            target="_blank" class="btn">โปรแกรมฝึกอบรม</a>
+        <a href="http://webaf.uniprogroup.com/share/page/" 
+            target="_blank" class="btn">Document Management</a>
+        <a href="http://192.168.0.13/share/page/" 
+            target="_blank" class="btn">Document Management (WO)</a>
+        <a href="https://app.powerbi.com/home?experience=power-bi" 
+            target="_blank" class="btn">Microsoft Power BI</a>
+        <a href="http://192.168.0.26:8181/mdcbox/panel/login.php" 
+            target="_blank" class="btn">MES System</a>
+        
+        <button class="accordion">Man Power</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=537fbb83-f088-40f7-b725-95017c7af6a7&section=ReportSection" 
+                target="_blank" class="btn2">> This Day</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=537fbb83-f088-40f7-b725-95017c7af6a7&section=ReportSection7e08e9f7464cd190c3d2" 
+                target="_blank" class="btn2">> By Month</a>
+            </div>
+        
+    </div>
+<!-- Service -->
+    <div class="icons">
+        <img src="images/service.png" alt="">
+        <h3>Service</h3>
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Z825OFfiN0GT5eUcFUOYevlrXRYTMUZBtJgWtgnLieRUM0xZRktXVDlaMFJZSkVLMFM2TFBUWUxTNS4u" 
+            target="_blank" class="btn">ใบแจ้งความต้องการบุคลากร</a>
+        <a href="https://apps.powerapps.com/play/e/default-38b9cd67-e257-4137-93e5-e51c1543987a/a/5720857b-c2a4-4f66-a085-2635f6a47a21?tenantId=38b9cd67-e257-4137-93e5-e51c1543987a" 
+            target="_blank" class="btn">ใบผ่าน</a>
+        <a href="https://uniprogroup-my.sharepoint.com/personal/banthoon_c_uniprogroup_com/Lists/IT/AllItems.aspx?env=WebViewList" 
+            target="_blank" class="btn">ระบบแจ้งซ่อมแผนก IT</a>
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Z825OFfiN0GT5eUcFUOYevlrXRYTMUZBtJgWtgnLieRUQVVYR1Q3WjZBV05QUjhYN1ZJQ1o0VFA1NC4u" 
+            target="_blank" class="btn">แบบฟอร์มขอพัฒนาระบบ</a>
+
+        <button class="accordion">ระบบแจ้งซ่อมแผนก MT</button>
+            <div class="panel">
+                <a href="https://quickpmmobileunipro.com/" 
+                target="_blank" class="btn2">> ระบบแจ้งซ่อม on PC</a>
+                
+                <button class="btn2" onclick="openPopup()">> ระบบแจ้งซ่อม on Mobile</button>
+
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=05435052-a5ad-420e-bf67-5088fac8acc8&section=ReportSectionf3f71519112e056e31a2&tabReport=true" 
+                target="_blank" class="btn2">> รายงานแจ้งซ่อม Quick PM</a>
+            </div>
+
+        <a href="http://192.168.0.9/Syteline/webservice/room/index.php" 
+            target="_blank" class="btn">ระบบจองห้องประชุมแผนก PL</a>
+        <a href="http://192.168.0.9/telephone/index.php" 
+            target="_blank" class="btn">หมายเลขโทรศัพท์ภายใน</a>
+        <a href="https://uniprogroup-my.sharepoint.com/personal/adminbi_uniprogroup_com/Lists/Test%20Request%20Form/AllItems.aspx?env=WebViewList" 
+            target="_blank" class="btn">Test Request Form</a>
+        <a href="http://192.168.0.9/powerbi/show.html?type=report&id=45541d32-09a3-4cd9-b1ad-526c189e88cc&section=ReportSection83e1d711d61a7607dd46&tabReport=true" 
+            target="_blank" class="btn">Report Test Request Form</a>
+    </div>
+    <!-- pop up -->
+    <div class="popup" id="popup">
+        <h2>Scan QR ระบบแจ้งซ่อม ที่นี่</h2>
+        <img src="images/AppQuickPM.png" alt="">
+        <button class="ok" onclick="closePopup()">OK</button>
+    </div>
+<!-- KPI on Web -->
+    <div class="icons">
+        <img src="images/kpi.png" alt="">
+        <h3>KPI On Web</h3>
+        <a href="https://uniprogroup-my.sharepoint.com/personal/adminbi_uniprogroup_com/Lists/KPI%20List/AllItems.aspx?env=WebViewList" 
+        class="btn">ส่ง KPI Report</a>
+        <button class="accordion">ฝ่ายจัดซื้อ PU</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=a3d8da58-e596-4fb8-a5fc-f77c156ce034&section=ReportSection" 
+                target="_blank" class="btn2">> Cost Down Material</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=909ef338-5d7e-470d-ab57-785f18630b38&section=ReportSection" 
+                target="_blank" class="btn2">> ส่งวัตถุดิบทันตามกำหนด</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=b4aa1175-61a8-4d27-929a-8cf7dfd5e0d8&section=ReportSection4d31899a32682e841c3b" 
+                target="_blank" class="btn2">> Inventory Amount</a>
+            </div>
+        <button class="accordion">ฝ่ายขาย SL</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=66c890d3-ec0d-4be5-b8e8-71385bab0516&section=ReportSectionc62aa7f17b0052adc605" 
+                target="_blank" class="btn2">> Sales Target</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=7a488908-20a8-4cc9-9faf-705049f4151d&section=ReportSectionf786d112ea0e40386179" 
+                target="_blank" class="btn2">> Sales Target New Project</a>
+            </div>
+        <button class="accordion">ฝ่ายวางแผน PC</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=c5a163c3-f03d-4f3b-ac2e-6eaa486a58de&section=ReportSection" 
+                target="_blank" class="btn2">> การวางแผนการผลิตงานให้ทันต่อความต้องการ</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=553ac929-ffd0-4ac0-ac7b-c3381e31c155&section=ReportSection" 
+                target="_blank" class="btn2">> DAILY PLANNING</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=553ac929-ffd0-4ac0-ac7b-c3381e31c155&section=ReportSection071eac23ddcb083b11fa" 
+                target="_blank" class="btn2">> PLAN MATERIAL ISSUE</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=553ac929-ffd0-4ac0-ac7b-c3381e31c155&section=ReportSection048152067c540a741092" 
+                target="_blank" class="btn2">> MATERIAL ISSUE DETAIL</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=553ac929-ffd0-4ac0-ac7b-c3381e31c155&section=ReportSection0ce8373d26962f73bf5f" 
+                target="_blank" class="btn2">> Planning by Resource</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=553ac929-ffd0-4ac0-ac7b-c3381e31c155&section=ReportSectione017700fe82c0036f1ab" 
+                target="_blank" class="btn2">> Productivity by Line</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a1342d9-c972-441a-958c-b77c3d0a7850&section=ReportSection754ec243623fdd7a9c0b" 
+                target="_blank" class="btn2">> Balance order Line A</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a1342d9-c972-441a-958c-b77c3d0a7850&section=ReportSection8053edf01d302ee24903" 
+                target="_blank" class="btn2">> Balance order Line C</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a1342d9-c972-441a-958c-b77c3d0a7850&section=ReportSection84a7c7e31ec1b956360d" 
+                target="_blank" class="btn2">> Balance order Line C Request Mat</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a1342d9-c972-441a-958c-b77c3d0a7850&section=ReportSection4f11629911de791640ba" 
+                target="_blank" class="btn2">> Balance order Line D</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a1342d9-c972-441a-958c-b77c3d0a7850&section=ReportSection0fa0ed58c8c140697305" 
+                target="_blank" class="btn2">> Balance order Line Other</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=b3a097c2-3740-4cf5-aedb-10a927d7c068&section=ReportSection" 
+                target="_blank" class="btn2">> Compare QTY Formular Job</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=74cb70e5-64ba-4ac2-9e6c-6f4bb7f1b9b0&section=ReportSection" 
+                target="_blank" class="btn2">> Transfer Order By Site</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a39c207-04ef-40ed-a29b-45a9d3bc9fd6&section=ReportSection&tabReport=true" 
+                target="_blank" class="btn2">> Job Scan on Alfresco</a>
+            </div>
+        <button class="accordion">ฝ่ายผลิต PD</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=2d393a05-feac-4150-aa5f-a0973929ba06&section=ReportSectiona3daea2d4b679ab305a2" 
+                target="_blank" class="btn2">> ควบคุมปริมาณการใช้วัตถุดิบตรงตาม BOM</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=1ef89491-242c-4a8e-8dd5-869a2e0a017c&section=ReportSection47cae5b26cb25e367a11" 
+                target="_blank" class="btn2">> อัตราการใช้พลังงานไฟฟ้าต่อยอดการผลิต</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=2a606f0b-5687-4551-b915-455c72c540b3&section=ReportSection" 
+                target="_blank" class="btn2">> อัตราการเดินเครื่องจักร Available Rate</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=e4189a7e-395e-4849-a4ef-7892c0baf935&section=ReportSection05e37b509247e902dae8" 
+                target="_blank" class="btn2">> ประสิทธิภาพการเดินเครื่อง Perfermance Rate</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=31c26d9f-2550-4266-a536-a8d2dff25e51&section=ReportSection" 
+                target="_blank" class="btn2">> อัตราคุณภาพ Quality Rate</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=d548fe5d-e74e-4acf-824a-448dea4edae9&section=ReportSection7de8baf07b41be202166&tabReport=true" 
+                target="_blank" class="btn2">> Defect Rate</a>
+            </div>
+        <button class="accordion">ฝ่ายคลังวัตถุดิบ ST</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=95b443d3-3eaf-4344-9c47-0b129e56dd1d&section=ReportSectioncabc6c45e20916c39346" 
+                target="_blank" class="btn2">> ความถูกต้องของยอด Stock วัตถุดิบ(Lot/Quantity)</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=553ac929-ffd0-4ac0-ac7b-c3381e31c155&section=ReportSection52db6722212e2744b0e1" 
+                target="_blank" class="btn2">> เบิก-จ่ายตรงตามแผน</a>
+            </div>
+        <button class="accordion">ฝ่ายคลังสินค้าสำเร็จรุป FG</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=c40c9a4e-203c-430b-b0f9-ff65b208951f&section=ReportSectioncabc6c45e20916c39346" 
+                target="_blank" class="btn2">> ความถูกต้องของยอด Stock FG (Lot/Location/Quantity)</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=a56d0565-857e-4e1c-9e71-dc9076fe1695&section=ReportSectiona545f99975acc0777448" 
+                target="_blank" class="btn2">> ค่าใช้จ่ายในการขนส่ง</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=3d0a341f-4e9c-4437-820d-c93d0977f48a&section=ReportSection" 
+                target="_blank" class="btn2">> Onhand Consumer</a>
+            </div>
+        <button class="accordion">ฝ่ายซ่อมบำรุง MT</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=28727f72-d92c-459b-a81b-fc7f43405ec9&section=ReportSection" 
+                target="_blank" class="btn2">> MTTR & MTBF (MES)</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=46c6e524-cb02-4424-8f62-6e6d2aa09ecd&section=ReportSection" 
+                target="_blank" class="btn2">> MTTR & MTBF (QuickPM)</a>
+            </div>
+        <button class="accordion">ฝ่ายตรวจสอบคุณภาพ QA</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=99668bd5-c76e-4db1-9606-e6a05df3519b&section=ReportSectionce1612102a4dbda6fa93" 
+                target="_blank" class="btn2">> QA Inspection</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=d548fe5d-e74e-4acf-824a-448dea4edae9&section=ReportSection5d09767aee6b0d90779a" 
+                target="_blank" class="btn2">> Defect Rate</a>
+            </div>
+        <button class="accordion">U FOAM</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8f33bf0d-9245-40f5-a41c-a333ce3f863a&section=ReportSection5390dd5976d6b5fb89a5" 
+                target="_blank" class="btn2">> ประสิทธิภาพการผลิตเครื่อง EXTRUDE</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8f33bf0d-9245-40f5-a41c-a333ce3f863a&section=ReportSection4c6fe363f18d321d2698" 
+                target="_blank" class="btn2">> ประสิทธิภาพการผลิตเครื่อง FOAMING</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=aede1062-42a6-4d99-8b45-a62550ceddf5&section=ReportSectiond5d9ed3381b5b50971c0" 
+                target="_blank" class="btn2">> Yield ในกระบวนการ EXTRUDE</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=b8fe1193-3bbe-42ec-93b8-85a49d5d861f&section=ReportSectioncf289b702719f9a01c53" 
+                target="_blank" class="btn2">> Yield ในกระบวนการ FOAMING</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=6390ae5d-6a8b-4051-ac13-435fe0a05e6a&section=ReportSection" 
+                target="_blank" class="btn2">> อัตราการใช้พลังงานไฟฟ้าต่อยอดผลิต</a>
+            </div>
+        <button class="accordion">PROFELT</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8f33bf0d-9245-40f5-a41c-a333ce3f863a&section=ReportSection4c1ea5ff20f3e6f4d4ac" 
+                target="_blank" class="btn2">> ประสิทธิภาพการผลิตเครื่อง FELT</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8f33bf0d-9245-40f5-a41c-a333ce3f863a&section=ReportSection2d3c05179f08042db86d" 
+                target="_blank" class="btn2">> ประสิทธิภาพการผลิตเครื่อง LAMINATE</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=1f515267-395c-4825-995c-c8d12997f1cb&section=ReportSection9a49fa0dccb01ef2fc2f" 
+                target="_blank" class="btn2">> Yield ในกระบวนการ</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=43c0aa5b-e467-4336-8f29-0bbe61d4ffa1&section=ReportSection4d7b922f3560052248c6" 
+                target="_blank" class="btn2">> อัตราการใช้พลังงานไฟฟ้าต่อยอดผลิต</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=2a606f0b-5687-4551-b915-455c72c540b3&section=ReportSection0a2ad2b7d174b968842f" 
+                target="_blank" class="btn2">> อัตราการเดินเครื่องจักร Available Rate</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=e4189a7e-395e-4849-a4ef-7892c0baf935&section=ReportSection9dc6b79725d2ee325209" 
+                target="_blank" class="btn2">> ประสิทธิภาพการเดินเครื่อง Perfermance Rate</a>
+            </div>
+        <button class="accordion">RUBBER</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=90d16635-24f5-4b8f-9f1e-fc5f82db0e90&section=ReportSectiond3a56d6892e403db6e41" 
+                target="_blank" class="btn2">> ประสิทธิภาพการผลิตเครื่อง PVC RUBBER</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=90d16635-24f5-4b8f-9f1e-fc5f82db0e90&section=ReportSection70ba1b46866fb3d725ec" 
+                target="_blank" class="btn2">> ประสิทธิภาพการผลิตเครื่อง BUTYL</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=024cf825-1a63-4f98-bdf0-a4bf4f2d87b5&section=ReportSection9a49fa0dccb01ef2fc2f" 
+                target="_blank" class="btn2">> Yield ในกระบวนการ PVC RUBBER</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=5f3723dc-4632-49cd-9e0a-1825c9884171&section=ReportSection9a49fa0dccb01ef2fc2f" 
+                target="_blank" class="btn2">> Yield ในกระบวนการ BUTYL 3-5</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=43c0aa5b-e467-4336-8f29-0bbe61d4ffa1&section=ReportSection42ff0eda8529d2ec7177" 
+                target="_blank" class="btn2">> อัตราการใช้พลังงานไฟฟ้าต่อยอดผลิต</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=2a606f0b-5687-4551-b915-455c72c540b3&section=ReportSectionff6cdc0d9877c4904384" 
+                target="_blank" class="btn2">> อัตราการเดินเครื่องจักร Available Rate</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=e4189a7e-395e-4849-a4ef-7892c0baf935&section=ReportSectionc113e3a70ddbb183e6ed" 
+                target="_blank" class="btn2">> ประสิทธิภาพการเดินเครื่อง Perfermance Rate</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=8a1342d9-c972-441a-958c-b77c3d0a7850&section=ReportSectionfe767f501df6c7bc49c9" 
+                target="_blank" class="btn2">> Job Order Balance</a>
+            </div>
+        <button class="accordion">BUDGET</button>
+            <div class="panel">
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=dee0b2af-491d-408d-95d1-1c1d50c4e021&section=ReportSection" 
+                target="_blank" class="btn2">> All Budget</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=dee0b2af-491d-408d-95d1-1c1d50c4e021&section=ReportSection9ec85cdba9bb26042008" 
+                target="_blank" class="btn2">> Budget by Department and Account group</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=dee0b2af-491d-408d-95d1-1c1d50c4e021&section=ReportSectionfdf8f6593c7bd4e49a82" 
+                target="_blank" class="btn2">> Budget by Month and Account group</a>
+                <a href="http://192.168.0.9/powerbi/show.html?type=report&id=dee0b2af-491d-408d-95d1-1c1d50c4e021&section=ReportSection3decf3dc0c1e959d7c60" 
+                target="_blank" class="btn2">> Detail budget use</a>
+            </div>
+    </div>
+</div>
+<!-- Bottom section ends -->
+
+<!-- KPI section starts -->
+<section class="kpi" id="kpi">
+    
+    <h1 class="heading">Safety First | Check fire extinguishers | KPI Monthly</h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <iframe title="Accident Report" width="550" height="323.5" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiNGU2NzMyNTItNGFlMC00MGU5LTk1NjctOTQ2ODJkNjYyMWEyIiwidCI6IjM4YjljZDY3LWUyNTctNDEzNy05M2U1LWU1MWMxNTQzOTg3YSIsImMiOjEwfQ%3D%3D&pageName=ReportSection" 
+            frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+
+        <div class="box">
+            <iframe title="Fire Extinguishers Check" width="350" height="323.5" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiNGEwODBkNjktY2NlNC00NWE4LTkyOGQtZDg1MWU0OTc4ZjIwIiwidCI6IjM4YjljZDY3LWUyNTctNDEzNy05M2U1LWU1MWMxNTQzOTg3YSIsImMiOjEwfQ%3D%3D&pageName=ReportSection" 
+            frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+
+        <div class="box">
+            <iframe title="KPI Monthly - KPI Monthly" width="250" height="323.5" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiN2IyMDc1YjctNTg1YS00NDVmLWFlM2EtYmI1MTYyYjUzOGZjIiwidCI6IjM4YjljZDY3LWUyNTctNDEzNy05M2U1LWU1MWMxNTQzOTg3YSIsImMiOjEwfQ%3D%3D" 
+            frameborder="0" allowFullScreen="true"></iframe>
+            
+        </div>
+    </div>
+
+</section>
+<!-- KPI section ends -->
+
+<!-- สาขา section starts -->
+<section class="branch" id="branch">
+
+    <h1 class="heading">Branch</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/bkk.jpg" alt="">
+            <h3 class="title">Head Office</h3>
+            <div class="info">
+                <h3>Head Office</h3>
+                <p>aaaaaaaaaaaaaaaaaaaaa
+                    aaaaaaaaaaaaaaaaaaa</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/ch.png" alt="">
+            <h3 class="title">Chachoengsao Plant</h3>
+            <div class="info">
+                <h3>Chachoengsao Plant</h3>
+                <p>bbbbbbbbbbbbbbbbbbbbbbb
+                    bbbbbbbbbbbbbbbbbbb</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/felt.jpg" alt="">
+            <h3 class="title">Profelt</h3>
+            <div class="info">
+                <h3>Profelt</h3>
+                <p>cccccccccccccccccccccccc
+                    ccccccccccccccccccc</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/rb.png" alt="">
+            <h3 class="title">Rubber</h3>
+            <div class="info">
+                <h3>Rubber</h3>
+                <p>dddddddddddddddddddd
+                    ddddddddddddddddddddd</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/uf.jpg" alt="">
+            <h3 class="title">U Foam</h3>
+            <div class="info">
+                <h3>U Foam</h3>
+                <p>eeeeeeeeeeeeeeeeeeeeeee
+                    eeeeeeeeeeeeeeeeeeeeee</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- สาขา section ends -->
+
+<!-- events section starts -->
+<section class="events" id="events">
+
+    <h1 class="heading">Our Events</h1>
+
+    <div class="box-container">
+
+    <div class="box">
+        <img src="UX-UI/img/event1.png" alt="">
+        <div class="content">
+            <h3>October 11, 2022</h3>
+            <a href="https://uniprogroup-my.sharepoint.com/personal/adminit_uniprogroup_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadminit%5Funiprogroup%5Fcom%2FDocuments%2FFileload%2Fit%2F%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%20CSR%20%20%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99VDO%2Emp4" 
+            target="_blank" class="title">โครงการ CSR  ปลูกป่าเพื่อชุมชน</a>
+            <p>Testtesttesttesttesttesttesttesttesttest</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="UX-UI/img/event2.png" alt="">
+        <div class="content">
+            <h3>October 11, 2022</h3>
+            <a href="https://uniprogroup-my.sharepoint.com/personal/adminit_uniprogroup_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fadminit%5Funiprogroup%5Fcom%2FDocuments%2FFileload%2Fit%2F%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%20CSR%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%97%E0%B9%88%E0%B8%A7%E0%B8%A1VDO%2Emp4" 
+            target="_blank" class="title">โครงการ CSR  ปลูกป่าเพื่อชุมชน</a>
+            <p>Testtesttesttesttesttesttesttesttesttest</p>
+        </div>
+    </div>
+</div>
+
+</section>
+<!-- events section ends -->
+
+<!-- footer section starts-->
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about me</h3>
+            <p>Manufacturer of Insulation and cushion materials for
+                Construction, Automotive and Air conditioning,
+                Electrical, Electronic and Industrials parts</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> Home</a>
+            <a href="#kpi"> KPI</a>
+            <a href="#branch"> Branch</a>
+            <a href="#events"> events</a>
+        </div>
+
+        <div class="box">
+            <h3>contact us Head Office</h3>
+            <p> <i class="fas fa-phone"></i> Tel : 02-733-4276-81 </p>
+            <p> <i class="fas fa-fax"></i> Fax : 02-379-1679 </p>
+            <p> <i class="fas fa-map-marker-alt"></i> Nvamin Rd. Nvamin, Buengkum, Bangkok </p>
+        </div>
+
+        <div class="box">
+            <h3>contact us Chachoengsao Plant</h3>
+            <p> <i class="fas fa-phone"></i> Tel : 038-564-882-86 </p>
+            <p> <i class="fas fa-fax"></i> Fax : 038-539-528-29 </p>
+            <p> <i class="fas fa-map-marker-alt"></i> 43/9 Moo 3  T. Klong-Udomchonlachorn, A. Muang, Chachoengsao </p>
+        </div>
+    </div>
+
+    <h1 class="unipro"> Every Piece Is Master Piece | <a href="http://uniprogroup.com/EN/home" target="_blank"> Unipro Manufacturing </a></h1>
+
+</div>
+<!-- footer section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "rem";
+        } 
+      });
+    }
+    </script>
+
+<!-- jquery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!-- Custom JS file link -->
+<script src="js/script.js"></script>
+<script src="js/popup.js"></script>
+
+
+
+</body>
+</html>
